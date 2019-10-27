@@ -6,19 +6,13 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-- type: document
-  path: content/about/info.md
-  label: Info Page
 - type: directory
-  path: content/blog-posts
+  path: content/post
   label: Blog posts
   create: all
   match: "**/*"
   templates:
   - blog
-- type: document
-  path: content/data/authors.yaml
-  label: Authors List
 - type: heading
   label: Config
 - type: document
