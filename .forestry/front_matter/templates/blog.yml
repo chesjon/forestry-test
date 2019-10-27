@@ -6,6 +6,12 @@ fields:
   name: title
   label: Title
   default: default
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  hidden: false
 - name: author
   type: select
   default: []
